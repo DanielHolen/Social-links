@@ -1,0 +1,130 @@
+/* CSS Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Card */
+
+body {
+  align-items: center;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  height: 100vh;
+  justify-content: center;
+}
+
+main {
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  height: 75vh;
+  max-width: 375px;
+  max-height: 500px;
+  padding: 2em 1em;
+  text-align: center;
+  width: 80%;
+}
+
+/* Bio */
+
+#bio {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  justify-content: space-around;
+}
+
+img {
+  border-radius: 50%;
+  width: 30%;
+}
+
+.container {
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+h2 {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+}
+
+/* Links */
+
+a {
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 8px;
+  color: hsl(0, 0%, 100%);
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1.2em;
+}
+
+a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  cursor: pointer;
+  caret-color: hsl(0, 0%, 8%);
+}
+
+/* Footer */
+
+.attribution {
+  display: none;
+}
